@@ -2,6 +2,15 @@
 
 #include <stdio.h>
 
+	//시간복잡도
+	//얼마나 많은 시간??
+	//1~10까지 10번
+	//10+9+8+7...+1
+	//-->등차수열 10*(10+1)/2==55
+	//N*(N+1)/2-->N*N이라고 수행시간,,, bigO표기법
+	 //비효율적임 
+	 
+	 
 int main(void){
 	int i, j, min, index, temp;
 	int array[10]= {1,10, 5, 8, 7, 6, 4, 3, 2, 9};
@@ -25,5 +34,6 @@ int main(void){
 		printf("%d", array[i]);
 	} 
 	return 0;
+	
 	
 }
