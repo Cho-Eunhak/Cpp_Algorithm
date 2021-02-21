@@ -26,13 +26,13 @@
 	} 
 	
 	//남은 데이터도 삽입
-	if(i<middle){
+	if(i>middle){//i가 먼저끝남 
 		for(int t=j; t<=n; t++){
 			sorted[k] = a[t];
 			k++;
 		}
 	} 
-	else{
+	else{//j가 먼저 끝남 
 		for(int t=i;t<=middle; t++){
 			sorted[k]=a[t];
 			k++;
