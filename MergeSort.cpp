@@ -48,9 +48,9 @@
  	//크기가 1보다 큰 겨우만 따지도록
 	if(m<n){
 		int middle = (m+n)/2;
-		mergeSort(a,m, middle);
-		mergeSort(a, middle+1, n);
-		merge(a, m, middle, n);
+		mergeSort(a,m, middle);//왼쪽정렬 
+		mergeSort(a, middle+1, n);//오른쪽정렬 
+		merge(a, m, middle, n);//나중에 합쳐줌 
 	}	  
  }
  
